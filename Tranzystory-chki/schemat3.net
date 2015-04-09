@@ -1,0 +1,11 @@
+* Z:\home\luki\Dokumenty\Semestr2\Elektronika\Tranzystory-chki\schemat3.asc
+V1 N002 0 10
+V2 0 N003 1
+R1 N001 N002 106
+J1 N001 N003 0 NJF
+.model NJF NJF
+.model PJF PJF
+.lib C:\Program Files (x86)\LTC\LTspiceIV\lib\cmp\standard.jft
+.dc V2 0 3600M 200M
+.backanno
+.end

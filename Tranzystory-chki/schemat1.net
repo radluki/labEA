@@ -1,0 +1,11 @@
+* Z:\home\luki\Dokumenty\Semestr2\Elektronika\Tranzystory-chki\schemat1.asc
+V1 N002 0
+Q1 N001 N003 0 0 BC547B
+R1 N002 N003 67800
+V2 N001 0 10
+.model NPN NPN
+.model PNP PNP
+.lib C:\Program Files (x86)\LTC\LTspiceIV\lib\cmp\standard.bjt
+.dc V1 0 10 5M
+.backanno
+.end
